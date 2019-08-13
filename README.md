@@ -8,7 +8,7 @@
 
 `yarn add express`
 
-- Criar dentro da pasta src, os arquivos app.js, server.js e routes.js.
+- Criar dentro da pasta src, os arquivos [app.js](https://gist.github.com/lrohde/2c882edac662c2eb8ea64e4d3b0c8de1), [server.js](https://gist.github.com/lrohde/762551423217494c4c17142175270af4) e [routes.js](https://gist.github.com/lrohde/82fc2f7ac5b1e194e8be763a822adb46).
 
 **3.** Adicionar o sucrase e o nodemon:
 
@@ -20,7 +20,7 @@
 
 **4.** Para padronização de código utiliza-se:
 
-`yarn add eslint -D`
+`yarn add eslint -D`<br />
 `yarn eslint --init`
 
 Selecionar as seguintes opções, respectivamente:
