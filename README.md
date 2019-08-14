@@ -50,6 +50,7 @@ Selecionar as seguintes opções, respectivamente:
 **6.** Para facilitar as operações de banco de dados utilizamos um ORM(Object-Relational Mapping):
 
 - Para instalar com o módulo do MySQL e com a CLI:
+
   `yarn add sequelize mysql2`<br />
   `yarn add sequelize-cli -D`
 
