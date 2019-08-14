@@ -55,3 +55,13 @@ Selecionar as seguintes opções, respectivamente:
   `yarn add sequelize-cli -D`
 
 - Deve-se criar os diretórios para migrations, seeds e models e então referenciá-los no arquivo [.sequelizerc](https://gist.github.com/lrohde/dd50303b8519e353599682985960ab44).
+
+- É necessário também criar um loader para os models dentro da pasta database e importá-lo dentro app.js.
+
+## Outras bibliotecas recomendadas
+
+- Para autenticação JWT [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken).
+- Para criptografia de senha [bcryptjs](https://github.com/dcodeIO/bcrypt.js).
+- Para manipulação de data [momentjs](https://github.com/moment/moment).
+- Para requisições HTTP [axios](https://github.com/axios/axios).
+- Para validação de dados [yup](https://github.com/jquense/yup).
