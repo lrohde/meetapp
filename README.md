@@ -44,3 +44,13 @@ Selecionar as seguintes opções, respectivamente:
 - Um arquivo [.eslintrc.js](https://gist.github.com/lrohde/abc4f6134229bbf4c6a9aaabe85285e1) será criado na raiz do projeto, algumas alterações serão necessárias. Elas podem ser encontradas [aqui](https://gist.github.com/lrohde/abc4f6134229bbf4c6a9aaabe85285e1). O arquivo [.prettierrc](https://gist.github.com/lrohde/c4f4d124a91550f196320a5463865363) também deve ser [criado](https://gist.github.com/lrohde/c4f4d124a91550f196320a5463865363).
 
 **5.** Para finalizar as configurações de estilo, é necessário gerar o arquivo [.editorconfig](https://gist.github.com/lrohde/6ed14cd9447b1d0344e313819a754b8c).
+
+## Adicionando ORM (Sequelize)
+
+**6.** Para facilitar as operações de banco de dados utilizamos um ORM(Object-Relational Mapping):
+
+- Para instalar com o módulo do MySQL e com a CLI:
+  `yarn add sequelize mysql2`<br />
+  `yarn add sequelize-cli -D`
+
+- Deve-se criar os diretórios para migrations, seeds e models e então referenciá-los no arquivo [.sequelizerc](https://gist.github.com/lrohde/dd50303b8519e353599682985960ab44).
